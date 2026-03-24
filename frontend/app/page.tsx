@@ -40,8 +40,8 @@ export default function Home() {
         cursor: "pointer",
         borderRadius: "6px"
       }}>
-        Request Private Consultation
-      href="mailto:koamaemae@gmail.com?subject=Private Consultation Request"
+<a
+  href="mailto:koamaemae@gmail.com?subject=Private Consultation Request"
   style={{
     backgroundColor: "#f5c542",
     padding: "12px 20px",
@@ -50,4 +50,7 @@ export default function Home() {
     color: "#000",
     fontWeight: "600",
     display: "inline-block"
-  }
+  }}
+>
+  Request Private Consultation
+</a>
