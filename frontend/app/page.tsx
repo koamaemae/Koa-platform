@@ -41,9 +41,13 @@ export default function Home() {
         borderRadius: "6px"
       }}>
         Request Private Consultation
-      </button>
-
-    </main>
-    
-  );
-}
+      href="mailto:koamaemae@gmail.com?subject=Private Consultation Request"
+  style={{
+    backgroundColor: "#f5c542",
+    padding: "12px 20px",
+    borderRadius: "6px",
+    textDecoration: "none",
+    color: "#000",
+    fontWeight: "600",
+    display: "inline-block"
+  }
